@@ -8,7 +8,7 @@ LABEL Description="deploy web iou with docker"
 
 #1.iou deb install 
 
-COPY iou-web/iou-web_1.2.2-23_all.deb /
+COPY web-iou/iou-web_1.2.2-23_all.deb /
 
 WORKDIR /
 
